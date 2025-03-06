@@ -2,15 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color:rgb(105, 144, 170)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  width: 10rem;
+  height: auto;
+}
+
+#nomefilme {
+  font-size: 1.5rem;
+}
+
+#generofilme {
+  font-size: 1rem;
+}
+
+#pesquisa {
+  padding: 10px;
+  width: 20%;
+  height: 2rem;
+  margin: 20px;
+  background-color: gray;
+  color: black;
+}
+
+#pesquisa::placeholder{
+  color: black;
 }
 
 .App-header {
@@ -21,18 +40,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: floralwhite;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid rgb(102, 95, 82);
+  text-align: center;
+}
+
+th {
+  color: rgb(105, 144, 170);
+  text-decoration: underline;
 }
